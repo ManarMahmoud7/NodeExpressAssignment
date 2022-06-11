@@ -1,0 +1,25 @@
+<link href="/css/styles.css" rel="stylesheet">
+<html>
+    <body>
+        <table>
+            <tr>
+                <th>Name</td>
+                <th>Description</td>
+            </tr>
+        
+        <% products.map((p) => {%>
+            <tr>
+                <td><a href="/products/<%=p._id%>"><%=p.Name%></a></td>
+                <td><%=p.Description%></td>
+                <% if (isAdmin) { %>
+                <td><a href="/admin/productItem/<%=p._id%>">Edit</a></td>
+                <% } %>
+            </tr>
+            <%})%>
+        </table>
+        <br/>
+        <% if (isAdmin) { %>
+            <button  onclick="window.location = '/admin/productItem'">Add Product</button>
+        <% } %>
+    </body>
+</html>

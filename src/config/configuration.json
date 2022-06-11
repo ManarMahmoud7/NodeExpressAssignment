@@ -1,0 +1,5 @@
+{
+    "databaseUrl" : "mongodb+srv://dbuser:g6sTF3Jt9uaiRqRY@learning.xtcmnb6.mongodb.net/assignment?retryWrites=true&w=majority",
+    "productsTableName" : "products",
+    "usersTableName" :"users"
+}

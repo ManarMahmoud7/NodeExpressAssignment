@@ -1,0 +1,6 @@
+[
+{ "Name": "Product A", "Description": "Product A Description","ImageUrl": "https://media.istockphoto.com/photos/beauty-products-isolated-on-colored-background-picture-id1287581577" },
+{ "Name": "Product B", "Description": "Product B Description","ImageUrl": "https://media.istockphoto.com/photos/cosmetic-mock-up-set-cosmetic-packaging-bottles-jar-and-tube-make-up-picture-id1167166127?s=612x612" },
+{ "Name": "Product C", "Description": "Product C Description","ImageUrl" : "https://media.istockphoto.com/photos/cosmetic-mock-up-set-cosmetic-packaging-bottles-jar-and-tube-make-up-picture-id1167166001?s=612x612" },
+{ "Name": "Product D", "Description": "Product D Description","ImageUrl" : "https://media.istockphoto.com/photos/cosmetics-picture-id846470346?s=612x612" }
+]
